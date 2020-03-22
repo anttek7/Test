@@ -75,6 +75,7 @@ for t in range(40):
     plt.colorbar() # color scale#psi = evolution_step(psi, K)
     plt.show()
     psi = evolution_step(psi, K)
+    print("xdxdddd")
 '''
 plt.plot(x,np.abs(psi)**2)
 plt.title("Time "+str(i).zfill(3))
