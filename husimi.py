@@ -1,7 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.fft import fft, ifft
-
+'''
+xd
+'''
 K = 0.6
 M = 100
 hbar = 2*np.pi/M
